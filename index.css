@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin:0;
+    border: 0;
+}
+
+body {
+    background-color:rgb(200, 200, 200);
+    font-family: 'Roboto' , sans-serif;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    padding-bottom: 15px;
+}
+
+section {
+    text-align: left;
+}
+
+.posts {
+    display: flex; /**/
+    align-items: flex-start; /**/
+    flex-direction: column; /**/
+    width: 1000px; /**/
+    margin: 5px 350px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+footer {
+    width: 1000px;
+    color: white;
+    text-align: center;
+    margin: 5px 350px 2px;
+    background-color: #3590ff;
+    border-radius: 10px;
+    
+}
+
+h4 {
+    /* text-align: left; */
+    padding: 10px;
+}
+
+a {
+    width: 99%;
+    text-align: right;
+    
+}
+
+p {
+    text-align: justify;
+    padding: 10px;
+}
+
+.footer_titulo {
+    text-align: center;
+    padding: 10px;
+}
+
+.footer_paragrafo {
+    text-align: center;
+    padding: 8px;
+}
+
+button {
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+input {
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+}
+
+.border1 {
+    border: solid 4px black;
+}
+
+.border2 {
+    border: solid 2px black;
+}
+
+
+
+
