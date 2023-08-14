@@ -16,20 +16,20 @@ header {
     text-align: center;
 }
 
-h1 {
+header img {
+    margin-top: 5px;
+}
+
+header h1 {
     padding-bottom: 15px;
 }
 
-section {
-    text-align: left;
-}
-
 .posts {
-    display: flex; /**/
-    align-items: flex-start; /**/
-    flex-direction: column; /**/
-    width: 1000px; /**/
-    margin: 5px 350px;
+    display: flex; 
+    align-items: flex-start; 
+    flex-direction: column; 
+    width: 1000px; 
+    margin: 5px auto;
     background-color: white;
     border-radius: 10px;
 }
@@ -38,19 +38,18 @@ footer {
     width: 1000px;
     color: white;
     text-align: center;
-    margin: 5px 350px 2px;
+    margin: 5px auto;
     background-color: #3590ff;
     border-radius: 10px;
-    
 }
 
 h4 {
-    /* text-align: left; */
     padding: 10px;
 }
 
 a {
     width: 99%;
+    padding-bottom: 5px;
     text-align: right;
     
 }
@@ -60,36 +59,33 @@ p {
     padding: 10px;
 }
 
-.footer_titulo {
+.footer_title {
     text-align: center;
     padding: 10px;
 }
 
-.footer_paragrafo {
+.footer_paragraph {
     text-align: center;
     padding: 8px;
 }
 
-button {
+.button {
     color:white;
     background-color: black;
     border-radius: 5px;
     margin-bottom: 5px;
-    padding: 5px;
+    padding: 6px;
 }
 
-input {
-    border-radius: 5px;
-    padding: 5px;
-    outline: none;
+.footer_border {
+    border: solid 3px black;
 }
 
-.border1 {
-    border: solid 4px black;
-}
-
-.border2 {
+.input_border {
     border: solid 2px black;
+    border-radius: 5px;
+    padding: 4px;
+    outline: none;
 }
 
 
